@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title = "HUGO.386"
+baseURL = "/"
+title = "BEATLEMEDIA"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "hugo.386"
@@ -7,50 +7,48 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "HUGO.386"
+    mainpagetitle = "BEATLEMEDIA"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "Welcome to the early 90s!" 
+    mainpagesubtitle = "Picture yourself in a boat on a river" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog. Check the links below to access the posts."
+    mainpagedesc = "ANOTHER blog about those guys? You're kidding right?"
 
     # The name to display in the copyright section in the footer
-    copyrightname = "JM Fergeau"
+    copyrightname = "MD Roberts"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = "http://jmf-portfolio.netlify.com"
+    copyrighturl = "http://retrofuture.netlify.app"
 
     # Show the "built on Hugo" disclaimer
-    showhugo = true
+    showhugo = false
 
     # Urls for social networks
-    facebook = "https://facebook.com"
-    twitter = "https://twitter.com"
-    linkedin = "https://linkedin.com"
-    github = "https://github.com"
-    gitlab = "https://gitlab.com"
+    facebook = "https://facebook.com/mr05301"
+    twitter = "https://twitter.com/dokoissho"
+    github = "https://github.com/mroberts1"
 
     # Enables or disables the loading animations. false activates them. Default is false.
     loadfastload = false
 
     # Sets the speed for the page loading effect. Default is 1.0.
-    loadspeedfactor = 1.0
+    loadspeedfactor = 4
 
     # Enables or disables the second flyby cursor. Default is false.
-    loadonepass = false
+    loadonepass = true
 
 [params.copyright]
-    name = "JM Fergeau"
+    name = "MD Roberts"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "http://jmf-portfolio.netlify.com"
+    url = "http://retrofuture.netlify.app"
 
     # Text to go before copyright information
-    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
+    prefix = "2021"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "Example site"
+    suffix = "BEATLEMEDIA"
 
 [menu]
   # This displays buttons in the navbar to access your contents
@@ -91,9 +89,6 @@ tag = "tags"
     privacyEnhanced = true
 
 [services]
-
-  [services.instagram]
-    disableInlineCSS = true
 
   [services.twitter]
     disableInlineCSS = true
